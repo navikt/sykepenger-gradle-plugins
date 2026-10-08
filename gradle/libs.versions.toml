@@ -8,7 +8,7 @@
 [versions]
 bouncycastle = "1.86"
 jetty = "12.1.13"
-logback = "1.6.4"
+logback = "1.6.5"
 
 [libraries]
 # BOM-er som eksponeres til moduler via no.nav.sykepenger.kotlin
