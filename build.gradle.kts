@@ -8,7 +8,7 @@ group = "no.nav.sykepenger"
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.21")
     implementation("com.google.cloud.tools:jib-gradle-plugin:3.5.4")
-    implementation("com.fasterxml.jackson:jackson-bom:2.22.3") // Jib drar inn en gammel versjon ellers
+    implementation("com.fasterxml.jackson:jackson-bom:2.22.4") // Jib drar inn en gammel versjon ellers
     implementation("org.jlleitschuh.gradle:ktlint-gradle:14.2.0")
 
     constraints {
