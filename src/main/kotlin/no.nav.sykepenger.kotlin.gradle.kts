@@ -39,6 +39,9 @@ dependencies {
         implementation(SykepengerVersions.HANDLEBARS)
         implementation(SykepengerVersions.LZ4_JAVA)
         implementation(SykepengerVersions.KAFKA_CLIENTS)
+        implementation(SykepengerVersions.SNAPPY_JAVA) {
+            because("GHSA-q233-g92q-qxp6, GHSA-xqrx-qh46-34m7, GHSA-gwq9-9ffj-mvrv: kafka-clients drar inn sårbar snappy-java 1.1.10.7")
+        }
         implementation(SykepengerVersions.BCPROV)
         implementation(SykepengerVersions.BCPKIX)
         implementation(SykepengerVersions.BCUTIL)
