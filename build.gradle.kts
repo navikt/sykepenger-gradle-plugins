@@ -13,6 +13,9 @@ dependencies {
 
     constraints {
         implementation("org.apache.commons:commons-lang3:3.21.0")
+        implementation("com.google.guava:guava:33.7.2-jre") {
+            because("GHSA-xxph-c9ww-hj94: jib-gradle-plugin drar inn sårbar Guava 32.1.2-jre")
+        }
     }
 }
 
