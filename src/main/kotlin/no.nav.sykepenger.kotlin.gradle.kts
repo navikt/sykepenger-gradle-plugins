@@ -48,6 +48,13 @@ dependencies {
         implementation(SykepengerVersions.GUAVA) {
             because("GHSA-xxph-c9ww-hj94: ktor-server-auth-jwt drar inn sårbar Guava 33.6.0-jre via jwks-rsa")
         }
+        implementation(SykepengerVersions.HTTPCLIENT5) {
+            because(
+                "wiremock 3.13.2 drar inn sårbar httpclient5 5.5.1 med httpcore5/httpcore5-h2 5.3.6. " +
+                    "httpclient5 5.6.5 drar inn httpcore5/httpcore5-h2 5.4.4, som også retter sårbarhetene der.",
+            )
+        }
+        implementation(SykepengerVersions.HTTPCLIENT5_FLUENT)
     }
 }
 

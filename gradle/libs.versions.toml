@@ -7,6 +7,7 @@
 
 [versions]
 bouncycastle = "1.86"
+httpclient5 = "5.6.5"
 jetty = "12.1.14"
 logback = "1.6.5"
 
@@ -28,6 +29,8 @@ bcprov = { module = "org.bouncycastle:bcprov-jdk18on", version.ref = "bouncycast
 bcutil = { module = "org.bouncycastle:bcutil-jdk18on", version.ref = "bouncycastle" }
 guava = { module = "com.google.guava:guava", version = "33.7.2-jre" }
 handlebars = { module = "com.github.jknack:handlebars", version = "4.5.5" }
+httpclient5 = { module = "org.apache.httpcomponents.client5:httpclient5", version.ref = "httpclient5" }
+httpclient5-fluent = { module = "org.apache.httpcomponents.client5:httpclient5-fluent", version.ref = "httpclient5" }
 kafka-clients = { module = "org.apache.kafka:kafka-clients", version = "4.4.0" }
 logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
 logback-core = { module = "ch.qos.logback:logback-core", version.ref = "logback" }
