@@ -26,6 +26,7 @@ prometheus-metrics-bom = { module = "io.prometheus:prometheus-metrics-bom", vers
 bcpkix = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
 bcprov = { module = "org.bouncycastle:bcprov-jdk18on", version.ref = "bouncycastle" }
 bcutil = { module = "org.bouncycastle:bcutil-jdk18on", version.ref = "bouncycastle" }
+guava = { module = "com.google.guava:guava", version = "33.7.2-jre" }
 handlebars = { module = "com.github.jknack:handlebars", version = "4.5.5" }
 kafka-clients = { module = "org.apache.kafka:kafka-clients", version = "4.4.0" }
 logback-classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }

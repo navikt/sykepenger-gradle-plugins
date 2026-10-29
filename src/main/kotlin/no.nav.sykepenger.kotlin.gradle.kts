@@ -45,6 +45,9 @@ dependencies {
         implementation(SykepengerVersions.BCPROV)
         implementation(SykepengerVersions.BCPKIX)
         implementation(SykepengerVersions.BCUTIL)
+        implementation(SykepengerVersions.GUAVA) {
+            because("GHSA-xxph-c9ww-hj94: ktor-server-auth-jwt drar inn sårbar Guava 33.6.0-jre via jwks-rsa")
+        }
     }
 }
 
