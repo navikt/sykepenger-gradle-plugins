@@ -55,6 +55,13 @@ dependencies {
             )
         }
         implementation(SykepengerVersions.HTTPCLIENT5_FLUENT)
+        implementation(SykepengerVersions.SWAGGER_PARSER) {
+            because(
+                "GHSA-3w8q-xq97-5j7x: smiley4 ktor-openapi drar inn swagger-parser 2.1.39, som via " +
+                    "swagger-compat-spec-parser 1.0.75 drar inn sårbar rhino 1.7.7.2. " +
+                    "Kan fjernes når smiley4 bruker swagger-parser 2.1.48 eller nyere.",
+            )
+        }
     }
 }
 
