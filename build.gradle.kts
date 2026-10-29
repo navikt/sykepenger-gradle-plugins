@@ -1,3 +1,13 @@
+buildscript {
+    dependencies {
+        constraints {
+            classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.4.21") {
+                because("GHSA-r937-wjx7-w2jp: kotlin-dsl drar inn sårbar kotlin-gradle-plugin 2.4.10")
+            }
+        }
+    }
+}
+
 plugins {
     `kotlin-dsl`
     `maven-publish`
