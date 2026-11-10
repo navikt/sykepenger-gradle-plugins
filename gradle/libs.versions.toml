@@ -20,14 +20,14 @@ jetty-ee10-bom = { module = "org.eclipse.jetty.ee10:jetty-ee10-bom", version.ref
 junit-bom = { module = "org.junit:junit-bom", version = "6.1.3" }
 ktor-bom = { module = "io.ktor:ktor-bom", version = "3.6.1" }
 micrometer-bom = { module = "io.micrometer:micrometer-bom", version = "1.17.2" }
-netty-bom = { module = "io.netty:netty-bom", version = "4.2.19.Final" }
+netty-bom = { module = "io.netty:netty-bom", version = "4.2.20.Final" }
 prometheus-metrics-bom = { module = "io.prometheus:prometheus-metrics-bom", version = "1.10.0" }
 
 # Dependency constraints
 bcpkix = { module = "org.bouncycastle:bcpkix-jdk18on", version.ref = "bouncycastle" }
 bcprov = { module = "org.bouncycastle:bcprov-jdk18on", version.ref = "bouncycastle" }
 bcutil = { module = "org.bouncycastle:bcutil-jdk18on", version.ref = "bouncycastle" }
-guava = { module = "com.google.guava:guava", version = "33.7.2-jre" }
+guava = { module = "com.google.guava:guava", version = "33.8.0-jre" }
 handlebars = { module = "com.github.jknack:handlebars", version = "4.5.8" }
 httpclient5 = { module = "org.apache.httpcomponents.client5:httpclient5", version.ref = "httpclient5" }
 httpclient5-fluent = { module = "org.apache.httpcomponents.client5:httpclient5-fluent", version.ref = "httpclient5" }
