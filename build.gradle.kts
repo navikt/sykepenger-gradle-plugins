@@ -22,7 +22,7 @@ dependencies {
     implementation("org.jlleitschuh.gradle:ktlint-gradle:14.2.0")
 
     constraints {
-        implementation("org.apache.commons:commons-lang3:3.21.0")
+        implementation("org.apache.commons:commons-lang3:3.22.0")
         implementation("com.google.guava:guava:33.8.0-jre") {
             because("GHSA-xxph-c9ww-hj94: jib-gradle-plugin drar inn sårbar Guava 32.1.2-jre")
         }
