@@ -19,7 +19,7 @@ jetty-bom = { module = "org.eclipse.jetty:jetty-bom", version.ref = "jetty" }
 jetty-ee10-bom = { module = "org.eclipse.jetty.ee10:jetty-ee10-bom", version.ref = "jetty" }
 junit-bom = { module = "org.junit:junit-bom", version = "6.1.3" }
 ktor-bom = { module = "io.ktor:ktor-bom", version = "3.6.1" }
-micrometer-bom = { module = "io.micrometer:micrometer-bom", version = "1.17.2" }
+micrometer-bom = { module = "io.micrometer:micrometer-bom", version = "1.18.0" }
 netty-bom = { module = "io.netty:netty-bom", version = "4.2.21.Final" }
 prometheus-metrics-bom = { module = "io.prometheus:prometheus-metrics-bom", version = "1.10.0" }
 
